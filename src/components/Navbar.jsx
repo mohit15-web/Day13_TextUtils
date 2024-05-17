@@ -16,7 +16,7 @@ const menuItems = [
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/contact',
   },
 ]
 
@@ -30,11 +30,11 @@ function Navbar() {
     const{toggleTheme} = useTheme();
 
   return (
-    <div className="relative w-full py-6">
+    <div className="relative w-full py-3">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 cursor-pointer">
         <div className="inline-flex items-center space-x-2">
         
-          <span className="font-bold text-3xl tracking-wider">TextUtils</span>
+          <span className="font-bold text-2xl tracking-wider">TextUtils</span>
         </div>
         <div className="hidden grow items-start lg:flex">
           <ul className="ml-12 inline-flex space-x-8">

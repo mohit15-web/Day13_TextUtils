@@ -68,7 +68,7 @@ function Home() {
 
   return (
     <div className=" px-32 flex flex-col justify-start items-center gap-6 p-5">
-      <h1 className="text-2xl font-bold mb-4">
+      <h1 className="text-3xl font-bold mb-4">
         TextUtils - Word Counter, Character Counter, Remove Extra Space
       </h1>
       <textarea
